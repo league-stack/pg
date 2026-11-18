@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="288" viewBox="0 0 960 288" role="img" aria-label="your go code calls pg, which speaks to postgres over tcp with tls verify-full and scram bound to the certificate, or over a unix socket in the clear">
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
+  <text x="120.0" y="30" text-anchor="middle" fill="#59636e" font-size="12">your code</text>
+  <text x="840.0" y="30" text-anchor="middle" fill="#59636e" font-size="12">speaks to</text>
+  <rect x="20" y="50.0" width="200" height="60" rx="8" fill="#f6f8fa" stroke="#d0d7de"/><text x="120.0" y="77.0" text-anchor="middle" fill="#1f2328" font-size="14" font-weight="600">ParseURL, Connect</text><text x="120.0" y="95.0" text-anchor="middle" fill="#59636e" font-size="11.5">a url or a Config</text>
+  <rect x="20" y="124.0" width="200" height="60" rx="8" fill="#f6f8fa" stroke="#d0d7de"/><text x="120.0" y="151.0" text-anchor="middle" fill="#1f2328" font-size="14" font-weight="600">Query, Exec, Script</text><text x="120.0" y="169.0" text-anchor="middle" fill="#59636e" font-size="11.5">one statement or many</text>
+  <rect x="20" y="198.0" width="200" height="60" rx="8" fill="#f6f8fa" stroke="#d0d7de"/><text x="120.0" y="225.0" text-anchor="middle" fill="#1f2328" font-size="14" font-weight="600">Batch, Tx, Wait</text><text x="120.0" y="243.0" text-anchor="middle" fill="#59636e" font-size="11.5">round trips, notifies</text>
+  <rect x="740" y="87.0" width="200" height="60" rx="8" fill="#f6f8fa" stroke="#d0d7de"/><text x="840.0" y="114.0" text-anchor="middle" fill="#1f2328" font-size="14" font-weight="600">postgres over tcp</text><text x="840.0" y="132.0" text-anchor="middle" fill="#59636e" font-size="11.5">tls, scram bound to cert</text>
+  <rect x="740" y="161.0" width="200" height="60" rx="8" fill="#f6f8fa" stroke="#d0d7de"/><text x="840.0" y="188.0" text-anchor="middle" fill="#1f2328" font-size="14" font-weight="600">postgres on a socket</text><text x="840.0" y="206.0" text-anchor="middle" fill="#59636e" font-size="11.5">in the clear</text>
+  <rect x="330" y="50" width="300" height="208" rx="14" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+  <text x="480.0" y="86" text-anchor="middle" fill="#1f2328" font-size="18" font-weight="700">pg</text>
+  <text x="480.0" y="108" text-anchor="middle" fill="#59636e" font-size="12">one session per Conn</text>
+  <rect x="350.0" y="128" width="126.0" height="30" rx="15" fill="#ddf4ff" stroke="#d0d7de"/>
+  <text x="413.0" y="148" text-anchor="middle" fill="#1f2328" font-size="12.5">tls verify-full</text>
+  <rect x="484.0" y="128" width="126.0" height="30" rx="15" fill="#ddf4ff" stroke="#d0d7de"/>
+  <text x="547.0" y="148" text-anchor="middle" fill="#1f2328" font-size="12.5">scram-sha-256-plus</text>
+  <rect x="350.0" y="168" width="126.0" height="30" rx="15" fill="#ddf4ff" stroke="#d0d7de"/>
+  <text x="413.0" y="188" text-anchor="middle" fill="#1f2328" font-size="12.5">extended protocol</text>
+  <rect x="484.0" y="168" width="126.0" height="30" rx="15" fill="#ddf4ff" stroke="#d0d7de"/>
+  <text x="547.0" y="188" text-anchor="middle" fill="#1f2328" font-size="12.5">batches</text>
+  <rect x="350.0" y="208" width="126.0" height="30" rx="15" fill="#ddf4ff" stroke="#d0d7de"/>
+  <text x="413.0" y="228" text-anchor="middle" fill="#1f2328" font-size="12.5">transactions</text>
+  <rect x="484.0" y="208" width="126.0" height="30" rx="15" fill="#ddf4ff" stroke="#d0d7de"/>
+  <text x="547.0" y="228" text-anchor="middle" fill="#1f2328" font-size="12.5">listen and notify</text>
+  <path d="M220 80.0 C275.0 80.0, 275.0 154.0, 323 154.0" fill="none" stroke="#8c959f" stroke-width="1.5"/><path d="M323 149.5 L330 154.0 L323 158.5 Z" fill="#8c959f"/>
+  <path d="M220 154.0 C275.0 154.0, 275.0 154.0, 323 154.0" fill="none" stroke="#8c959f" stroke-width="1.5"/><path d="M323 149.5 L330 154.0 L323 158.5 Z" fill="#8c959f"/>
+  <path d="M220 228.0 C275.0 228.0, 275.0 154.0, 323 154.0" fill="none" stroke="#8c959f" stroke-width="1.5"/><path d="M323 149.5 L330 154.0 L323 158.5 Z" fill="#8c959f"/>
+  <path d="M630 154.0 C685.0 154.0, 685.0 117.0, 733 117.0" fill="none" stroke="#8c959f" stroke-width="1.5"/><path d="M733 112.5 L740 117.0 L733 121.5 Z" fill="#8c959f"/>
+  <path d="M630 154.0 C685.0 154.0, 685.0 191.0, 733 191.0" fill="none" stroke="#8c959f" stroke-width="1.5"/><path d="M733 186.5 L740 191.0 L733 195.5 Z" fill="#8c959f"/>
+  </g>
+</svg>
